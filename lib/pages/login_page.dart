@@ -3,6 +3,13 @@ import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
   static String tag = 'login-page';
+
+  LoginPage();
+
+  factory LoginPage.forDesignTime() {
+    // TODO: add arguments
+    return new LoginPage();
+  }
   @override
   _LoginPageState createState() => _LoginPageState();
 }
