@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/form-validations/custom-form.dart';
+import 'package:combine_mobile/sections/forms/form-validations/custom-form.dart';
 import 'package:flutter/material.dart';
 
 class FormApp extends StatelessWidget {

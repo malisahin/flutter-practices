@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/routing/redirect/direction-home-page.dart';
+import 'package:combine_mobile/sections/requests/request-main.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -16,4 +16,12 @@ import 'package:flutter/material.dart';
 
 // void main() => runApp(HandlingTabsPageApp());
 
-void main() => runApp(DirectionHomePage());
+// void main() => runApp(DirectionHomePage());  // Routing Navigation next and back
+
+//void main() => runApp(GridSamplePageApp()); // Grid System
+
+//void main() => runApp(MultiPageApp());  // SPA s page
+
+void main() {
+  runApp(RequestMainApp());
+}

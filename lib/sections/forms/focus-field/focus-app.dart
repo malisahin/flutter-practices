@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/focus-field/focus-from.dart';
+import 'package:combine_mobile/sections/forms/focus-field/focus-from.dart';
 import 'package:flutter/material.dart';
 
 class FocusApp extends StatelessWidget {
