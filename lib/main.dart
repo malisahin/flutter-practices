@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/material-components/tutorial-home.dart';
+import 'package:combine_mobile/sections/shopping-list/shopping-list.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -26,4 +26,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(DynamicListStreamApp());  // Dynamic Stream List
 
-void main() => runApp(TutorialHomeApp());
+// void main() => runApp(TutorialHomeApp());   // Material Theme Example
+
+void main() => runApp(ShoppingListApp());
