@@ -1,5 +1,4 @@
-import 'package:combine_mobile/sections/requests/request-main.dart';
-import 'package:combine_mobile/sections/stream/dynamic-list-stream.dart';
+import 'package:combine_mobile/sections/material-components/tutorial-home.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -25,4 +24,6 @@ import 'package:flutter/material.dart';
 
 // void main() => runApp(RequestMainApp()); // Http Request
 
-void main() => runApp(DynamicListStreamApp());
+//void main() => runApp(DynamicListStreamApp());  // Dynamic Stream List
+
+void main() => runApp(TutorialHomeApp());
