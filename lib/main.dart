@@ -1,4 +1,5 @@
 import 'package:combine_mobile/sections/requests/request-main.dart';
+import 'package:combine_mobile/sections/stream/dynamic-list-stream.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -22,6 +23,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(MultiPageApp());  // SPA s page
 
-void main() {
-  runApp(RequestMainApp());
-}
+// void main() => runApp(RequestMainApp()); // Http Request
+
+void main() => runApp(DynamicListStreamApp());

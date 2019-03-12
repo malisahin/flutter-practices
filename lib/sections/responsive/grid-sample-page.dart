@@ -8,7 +8,6 @@ class GridSamplePage extends StatefulWidget {
 class GridSamplePageState extends State<GridSamplePage> {
   @override
   Widget build(BuildContext context) {
-    final double shortestSide = MediaQuery.of(context).size.shortestSide;
     return new Scaffold(
       appBar: AppBar(
         title: Text('Title'),

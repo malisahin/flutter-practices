@@ -7,7 +7,6 @@ class LoginPage extends StatefulWidget {
   LoginPage();
 
   factory LoginPage.forDesignTime() {
-    // TODO: add arguments
     return new LoginPage();
   }
   @override
