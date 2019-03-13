@@ -1,6 +1,6 @@
 # Flutter Practices
 
-A new Flutter project.
+Flutter samples and small demos in order to base mobile project.
 
 ## Getting Started
 
