@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/state-management/parent-manages/parent-widget-app.dart';
+import 'package:combine_mobile/sections/state-management/mix-manages/mix-parent-widget-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -32,4 +32,7 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(TapBoxAApp());  // Child self manage state
 
-void main() => runApp(ParentWidgetApp());
+//void main() => runApp(ParentWidgetApp());  // Parent manage child state
+
+void main() =>
+    runApp(MixParentWidgetApp()); // Both parent and child different states
