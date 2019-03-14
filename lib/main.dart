@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/shopping-list/shopping-list.dart';
+import 'package:combine_mobile/sections/state-management/parent-manages/parent-widget-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -28,4 +28,8 @@ import 'package:flutter/material.dart';
 
 // void main() => runApp(TutorialHomeApp());   // Material Theme Example
 
-void main() => runApp(ShoppingListApp());
+// void main() => runApp(ShoppingListApp()); // Shopping List Example
+
+//void main() => runApp(TapBoxAApp());  // Child self manage state
+
+void main() => runApp(ParentWidgetApp());
