@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/navigation/nav-screen-app.dart';
+import 'package:combine_mobile/sections/forms/validate-form/validate-form-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -36,4 +36,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(MixParentWidgetApp()); // Both parent and child different states
 
-void main() => runApp(NavScreenApp());
+//void main() => runApp(NavScreenApp());   // Navigation With animation
+
+void main() => runApp(ValidateFormApp());
