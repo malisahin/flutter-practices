@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/drag-drop/drag-drop-app.dart';
+import 'package:combine_mobile/demos/temperature/temperature-main-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -40,4 +40,6 @@ import 'package:flutter/material.dart';
 
 // void main() => runApp(ValidateFormApp());  // Form Validation
 
-void main() => runApp(DragDropApp());
+//void main() => runApp(DragDropApp());   // Drag Drop Application
+
+void main() => runApp(TemperatureMainApp());
