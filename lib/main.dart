@@ -1,4 +1,4 @@
-import 'package:combine_mobile/demos/temperature/temperature-main-app.dart';
+import 'package:combine_mobile/sections/isolates/isolates-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -42,4 +42,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(DragDropApp());   // Drag Drop Application
 
-void main() => runApp(TemperatureMainApp());
+// void main() => runApp(TemperatureMainApp());
+
+void main() => runApp(IsolatesApp()); // Isolate DI example

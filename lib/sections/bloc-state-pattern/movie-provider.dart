@@ -13,5 +13,5 @@ class MovieProvider extends InheritedWidget {
 
   MovieProvider({Key key, MovieBloc movieBloc, Widget child})
       : this.movieBloc = movieBloc ?? MovieBloc(API()),
-        super(child: child, key: key)
+        super(child: child, key: key);
 }
