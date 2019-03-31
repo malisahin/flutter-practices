@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/isolates/isolates-app.dart';
+import 'package:combine_mobile/sections/layout/layout-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -44,4 +44,6 @@ import 'package:flutter/material.dart';
 
 // void main() => runApp(TemperatureMainApp());
 
-void main() => runApp(IsolatesApp()); // Isolate DI example
+//void main() => runApp(IsolatesApp()); // Isolate DI example
+
+void main() => runApp(LayoutApp()); // LayoutApp example
