@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/layout/layout-app.dart';
+import 'package:combine_mobile/sections/login-bloc/login-bloc-home-page.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -46,4 +46,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(IsolatesApp()); // Isolate DI example
 
-void main() => runApp(LayoutApp()); // LayoutApp example
+//void main() => runApp(LayoutApp()); // LayoutApp example
+
+void main() => runApp(LoginBlocHome()); // Bloc Pattern login page example
