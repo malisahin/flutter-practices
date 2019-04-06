@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/infinite-scroll/scroll-page-state.dart';
+import 'package:combine_mobile/sections/bloc-pattern-stream/bloc-stream-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -50,4 +50,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(LoginBlocHome()); // Bloc Pattern login page example
 
-void main() => runApp(ScrollPageApp()); // Scroll App Example
+//void main() => runApp(ScrollPageApp()); // Scroll App Example
+
+void main() => runApp(BlocPatternApp()); // Bloc Pattern Stream
