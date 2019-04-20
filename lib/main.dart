@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/bloc-component/bloc-component-app.dart';
+import 'package:combine_mobile/sections/layout-builder/Layout-builder-demo.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -54,4 +54,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(BlocPatternApp()); // Bloc Pattern Stream
 
-void main() => runApp(BlocComponentApp()); // Bloc Pattern Stream
+//void main() => runApp(BlocComponentApp()); // Bloc Pattern Stream
+
+void main() => runApp(LayoutBuilderDemoApp()); // Bloc Pattern Stream
