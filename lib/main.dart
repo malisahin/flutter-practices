@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/bloc-pattern-stream/bloc-stream-app.dart';
+import 'package:combine_mobile/sections/bloc-component/bloc-component-app.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -52,4 +52,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(ScrollPageApp()); // Scroll App Example
 
-void main() => runApp(BlocPatternApp()); // Bloc Pattern Stream
+//void main() => runApp(BlocPatternApp()); // Bloc Pattern Stream
+
+void main() => runApp(BlocComponentApp()); // Bloc Pattern Stream
