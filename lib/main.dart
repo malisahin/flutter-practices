@@ -1,4 +1,4 @@
-import 'package:combine_mobile/sections/layout-builder/Layout-builder-demo.dart';
+import 'package:combine_mobile/sections/horizontal-listview/horizontal-listview.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -56,4 +56,6 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(BlocComponentApp()); // Bloc Pattern Stream
 
-void main() => runApp(LayoutBuilderDemoApp()); // Bloc Pattern Stream
+//void main() => runApp(LayoutBuilderDemoApp()); // Layout Builder Demo
+
+void main() => runApp(HorizontalListViewApp()); // Horizontal List View
