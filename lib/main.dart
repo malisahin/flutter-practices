@@ -1,4 +1,6 @@
-import 'package:combine_mobile/sections/card-carousel/card-carousel.dart';
+import 'package:camera/camera.dart';
+import 'package:combine_mobile/plugins/camera-plugin/camera-plugin.dart';
+import 'package:combine_mobile/util/logger.dart';
 import 'package:flutter/material.dart';
 
 /* Forms, Validations, Value Change */
@@ -64,4 +66,17 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(CardButtonDemoApp()); // Cards Demo
 
-void main() => runApp(CardCarouselApp()); // Cards Demo
+//void main() => runApp(CardCarouselApp()); // Cards Demo
+
+List<CameraDescription> cameraList;
+
+void main() async {
+  try {
+    availableCameras().then((List<CameraDescription> list) {
+      cameraList = list;
+      print(list);
+    }).whenComplete(() => runApp(CameraPluginApp()));
+  } on CameraException catch (e) {
+    Logger.logError(e.code, e.description);
+  }
+}
