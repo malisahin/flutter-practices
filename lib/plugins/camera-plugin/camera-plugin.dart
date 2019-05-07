@@ -69,7 +69,61 @@ class _CameraPluginState extends State<CameraPlugin>
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      key: _scaffoldKey,
+      appBar: AppBar(
+        title: const Text('Camera Example'),
+      ),
+      body: Column(
+        children: <Widget>[
+          Expanded(
+            child: Container(
+              child: Padding(
+                padding: const EdgeInsets.all(1.0),
+                child: Center(
+                  child: _cameraPreviewWidget(),
+                ),
+              ),
+              decoration: BoxDecoration(
+                color: Colors.black,
+                border: Border.all(
+                  color: controller != null && controller.value.isRecordingVideo
+                      ? Colors.redAccent
+                      : Colors.grey,
+                  width: 3.0,
+                ),
+              ),
+            ),
+          )
+          _captureControlRowWidget(),
+          Padding(
+            padding: const EdgeInsets.all(5),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                _cameraTogglesRowWidget(),
+                _thumbnailWidget()
+              ],
+            ),
+          )
+        ],
+      ),
+    );
+  }
+
+  Widget _cameraPreviewWidget() {
+    if (controller == null || !controller.value.isInitialized) {
+      return const Text(
+        'Tap a camera',
+        style: TextStyle(
+            color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900),
+      );
+    } else {
+      return AspectRatio(
+        aspectRatio: controller.value.aspectRatio,
+        child: CameraPreview(controller),
+      );
+    }
   }
 
   void onNewCameraSelected(CameraDescription description) async {
