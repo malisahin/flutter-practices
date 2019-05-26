@@ -1,3 +1,6 @@
+import 'package:combine_mobile/pages/login.dart';
+import 'package:flutter/material.dart';
+
 /* Forms, Validations, Value Change */
 // void main() => runApp(FormApp());  // Validate Form App
 
@@ -62,3 +65,7 @@
 //void main() => runApp(CardButtonDemoApp()); // Cards Demo
 
 //void main() => runApp(CardCarouselApp()); // Cards Demo
+
+//void main() => runApp(ImagePickerApp()); // Image Picker Demo
+
+void main() => runApp(LoginPageApp()); // Login Page Demo
